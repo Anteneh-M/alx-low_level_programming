@@ -1,12 +1,19 @@
-#include <stdio.h>
-/*
- * print _putchar and return o
-*
-*/ 
+#include "main.h"
+/**
+ * main -entry block
+ * @void: no argument
+ * Return: 0
+ **/
+int main(void)
+{
+char anteneh[] = "_putchar";
 
- int main(void)
- {
+int y;
 
-	printf("_putchar");
-      	return 0;	
- }	
+for (y = 0; y < 8; y++)
+{
+_putchar(anteneh[y]);
+}
+_putchar('\n');
+return (0);
+}
