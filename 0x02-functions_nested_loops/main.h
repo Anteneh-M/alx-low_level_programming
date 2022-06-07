@@ -1,6 +1,8 @@
 #ifndef FILE_HOLBERTON
 #define FILE_HOLBERTON
-
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
 void print_alphabet(void);
 
 void print_alphabet_x10(void);
