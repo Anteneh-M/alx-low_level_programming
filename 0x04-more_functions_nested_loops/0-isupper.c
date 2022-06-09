@@ -9,7 +9,7 @@
 int _isupper(char c)
 {
 
-	if (c ='A')
+	if (c =='A')
 		return (1);
 	else
 		return (0);
