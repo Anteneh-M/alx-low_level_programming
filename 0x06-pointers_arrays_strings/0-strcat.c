@@ -7,7 +7,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-<<<<<<< HEAD
 	int lengthD, lengthS;
 
 	lengthD = 0;
@@ -24,9 +23,4 @@ char *_strcat(char *dest, char *src)
 	}
 	*(dest + lengthD) = '\0';
 	return (dest);
-=======
-	strcat(dest,src);
-	printf("%s\n", dest);
-	return 0;
->>>>>>> 73344041101075fc4da6c0257b6b1de63d3aee99
 }
