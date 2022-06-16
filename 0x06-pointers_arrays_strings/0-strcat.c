@@ -4,9 +4,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-/*	char *dest = "Hello";
-/*	char *src = "World"; */
-	strcat(*dest,*src);
-	printf("Concatenated String: %s\n", *dest);
+	strcat(dest,src);
+	printf("%s\n", dest);
 	return 0;
 }
